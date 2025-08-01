@@ -1,5 +1,4 @@
 # Day Counter
----
 
 This is a small project where you will get which day and date it will be, based on the selected number of days. 
 
