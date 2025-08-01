@@ -32,7 +32,7 @@ function App() {
     const futureDate = new Date(today);
     futureDate.setDate(today.getDate() + counts);
     
-    return `${counts} days from today is ${futureDate.toDateString()}`
+    return counts < 0 ? `${Math.abs(counts)} days ago was ${futureDate.toDateString()}` : `In ${counts} days it's ${futureDate.toDateString()}`
   }
   
   return (
